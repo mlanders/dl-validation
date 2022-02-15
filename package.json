@@ -1,5 +1,5 @@
 {
-  "name": "@mlanders/dl-validation",
+  "name": "dl-validation",
   "version": "1.0.0",
   "description": "US Drivers license validation based on Checkr regex",
   "author": "Michael Landers",
