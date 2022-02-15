@@ -13,6 +13,7 @@
     "url": "https://github.com/mlanders/dl-validation.git"
   },
   "devDependencies": {
+    "codecov": "^3.8.3",
     "jest": "^27.5.1"
   }
 }
