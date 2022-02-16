@@ -10,10 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlanders/dl-validation.git"
+    "url": "git+https://github.com/mlanders/dl-validation.git"
   },
   "devDependencies": {
     "codecov": "^3.8.3",
     "jest": "^27.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mlanders/dl-validation/issues"
+  },
+  "homepage": "https://github.com/mlanders/dl-validation#readme",
+  "directories": {
+    "test": "tests"
   }
-}
+  }
