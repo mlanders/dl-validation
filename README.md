@@ -9,16 +9,9 @@ This package is loosely based on the [Checkr](https://docs.checkr.com/#section/R
 ## Usage
 
 ```javascript
-const DriversLicenseValidation = require('dl-validation')
+const DLValidation = require('dl-validation')
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+DLValidation.validate("CA", "111112001")
 ```
 
 ## Contributing
@@ -27,4 +20,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[ISC](https://choosealicense.com/licenses/isc/)
