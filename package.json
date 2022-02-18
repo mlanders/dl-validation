@@ -58,7 +58,7 @@
   },
   "homepage": "https://github.com/mlanders/dl-validation#readme",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "lint-staged": {
     "*.ts": "eslint --cache --cache-location .eslintcache --fix"

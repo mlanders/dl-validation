@@ -71,4 +71,6 @@ class DLValidation {
   }
 }
 
+export default new DLValidation();
+
 module.exports = new DLValidation();

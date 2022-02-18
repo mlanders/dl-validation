@@ -1,5 +1,15 @@
-const DLTestNumbers = (state) => {
-  const states = {
+interface StateOptions {
+    criteria: string
+    valid: string[]
+    invalid: string[]
+
+}
+
+interface DLStates {
+  [key:string]: StateOptions
+}
+export const DLTestNumbers = (state:string):StateOptions => {
+  const states:DLStates = {
     AL: {
       criteria: "7-8 Numeric",
       valid: ["1234567", "12345678"],
@@ -386,12 +396,64 @@ const DLTestNumbers = (state) => {
       invalid: ["12345678", "1234567890", "ASDFGHJKL", "12345678A"],
     },
   };
-  if (state) {
     return states[state.toUpperCase()];
-  } else {
-    return states;
-  }
 };
 
+export const DLStateList = ():string[] => {
+  return [
+    "AL",
+  "AK",
+  "AZ",
+  "AR",
+  "CA",
+  "CO",
+  "CT",
+  "DE",
+  "DC",
+  "FL",
+  "GA",
+  "HI",
+  "ID",
+  "IL",
+  "IN",
+  "IA",
+  "KS",
+  "KY",
+  "LA",
+  "ME",
+  "MD",
+  "MA",
+  "MI",
+  "MN",
+  "MS",
+  "MO",
+  "MT",
+  "NE",
+  "NV",
+  "NH",
+  "NJ",
+  "NM",
+  "NY",
+  "NC",
+  "ND",
+  "OH",
+  "OK",
+  "OR",
+  "PA",
+  "PR",
+  "RI",
+  "SC",
+  "SD",
+  "TN",
+  "TX",
+  "UT",
+  "VT",
+  "VA",
+  "WA",
+  "WV",
+  "WI",
+  "WY",
+  ]
+}
 
-module.exports = DLTestNumbers
+module.exports = { DLStateList,DLTestNumbers}
