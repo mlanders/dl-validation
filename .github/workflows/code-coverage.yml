@@ -1,4 +1,4 @@
-name: Code Coverage & Publish
+name: Code Coverage
 
 on: [push, pull_request]
 
