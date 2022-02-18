@@ -1,11 +1,11 @@
 {
   "name": "dl-validation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "US Drivers license validation based on Checkr regex",
   "author": "Michael Landers",
   "license": "ISC",
   "source": "src/index.ts",
-  "main": "lib/src/index.js",
+  "main": "dist/src/index.js",
   "types": "dist/src/types.d.ts",
   "files": [
     "dist/**/*"
