@@ -4,11 +4,11 @@ module.exports = {
   testMatch: [ "**/test/unit/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)" ],
   coveragePathIgnorePatterns:[
     '/node_modules/',
-    '<rootDir>/lib'
+    '<rootDir>/dist'
   ],
   testPathIgnorePatterns:[
     "/node_modules/",
-    '<rootDir>/lib'
+    '<rootDir>/dist'
   ],
   collectCoverageFrom: [
     '<rootDir>/src/**/*.ts',

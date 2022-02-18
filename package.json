@@ -1,19 +1,18 @@
 {
   "name": "dl-validation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "US Drivers license validation based on Checkr regex",
   "author": "Michael Landers",
   "license": "ISC",
   "source": "src/index.ts",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
-  "types": "dist/types.d.ts",
+  "main": "lib/src/index.js",
+  "types": "dist/src/types.d.ts",
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf ./lib/",
+    "clean": "rm -rf ./dist/",
     "cm": "cz",
     "coverage": "codecov",
     "lint": "eslint ./src/ --fix",
