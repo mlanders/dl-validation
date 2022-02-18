@@ -1,5 +1,5 @@
 TN:
-SF:index.js
+SF:src/index.ts
 FN:2,DLValidation
 FN:64,validate
 FNF:2

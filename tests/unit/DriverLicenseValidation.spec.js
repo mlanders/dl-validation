@@ -1,12 +1,11 @@
 const DLTestNumbers = require( "../DLTestNumbers");
-const DLValidation = require('../../index');
+const DLValidation = require('../../src');
 
 describe("Drivers License Tests", () => {
   const data = DLTestNumbers();
   for (const [key] of Object.entries(data)) {
-    describe(key, () => {
-      const {valid, invalid, criteria} = DLTestNumbers(key);
-      console.log(`${key}: ${criteria}`);
+    const {valid, invalid, criteria} = DLTestNumbers(key);
+    describe(`${key} - ${criteria}`, () => {
       describe("Valid", () => {
         if(valid.length === 0) test.todo(`${key}: Write Valid Tests`)
         valid.forEach((item) => {

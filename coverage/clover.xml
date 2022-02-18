@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1645036515765" clover="3.2.0">
-  <project timestamp="1645036515766" name="All files">
+<coverage generated="1645220970140" clover="3.2.0">
+  <project timestamp="1645220970140" name="All files">
     <metrics statements="468" coveredstatements="468" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3" elements="476" coveredelements="476" complexity="0" loc="468" ncloc="468" packages="2" files="2" classes="2"/>
-    <package name="dl-validation">
+    <package name="src">
       <metrics statements="71" coveredstatements="71" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="index.js" path="/Users/work/Github/dl-validation/index.js">
+      <file name="index.ts" path="/Users/work/Github/dl-validation/src/index.ts">
         <metrics statements="71" coveredstatements="71" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -79,7 +79,7 @@
         <line num="71" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="dl-validation.tests">
+    <package name="tests">
       <metrics statements="397" coveredstatements="397" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
       <file name="DLTestNumbers.js" path="/Users/work/Github/dl-validation/tests/DLTestNumbers.js">
         <metrics statements="397" coveredstatements="397" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
