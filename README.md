@@ -1,9 +1,8 @@
 # DL Validation
 
-![npm](https://img.shields.io/npm/v/dl-validation)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/mlanders/dl-validation)
+[![npm](https://img.shields.io/npm/v/dl-validation)](https://www.npmjs.com/package/dl-validation)
 [![codecov](https://codecov.io/gh/mlanders/dl-validation/branch/main/graph/badge.svg?token=UOEH2OR1UC)](https://codecov.io/gh/mlanders/dl-validation)
-![GitHub issues](https://img.shields.io/github/issues/mlanders/dl-validation)
+[![GitHub issues](https://img.shields.io/github/issues/mlanders/dl-validation)](https://github.com/mlanders/dl-validation/issues)
 ![npm](https://img.shields.io/npm/dy/dl-validation)
 
 > This package is loosely based on the [Checkr](https://docs.checkr.com/#section/Reference/Driver-License-validation) driver license validation regex.
